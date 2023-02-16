@@ -17,8 +17,7 @@ a {
     color:white;
     background: white;
     background: gray;
-    padding: 10px;
-    margin-top: 10px;
+    size: 10%;
 }
 a:hover {
   color: rgb(0, 0, 0);
