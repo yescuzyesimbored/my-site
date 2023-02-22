@@ -3,7 +3,7 @@ body {
   height: 100%;
   font-family: 'Comic Neue', cursive;
   font-family: 'Roboto', sans-serif;
-  background: gray;
+  background: rgb(31, 31, 31);
   margin: 0%;
   position: absolute;
 }
@@ -26,6 +26,7 @@ a:hover {
 .navbar {
   overflow: hidden;
   background-color: #333;
+  
 }
 
 .navbar a {
@@ -80,9 +81,23 @@ a:hover {
 .dropdown-content a:hover {
   background-color: #ddd;
   color: black;
-  
 }
 
 .show {
   display: block;
+}
+
+.forums {
+  position: absolute;
+  margin-top: 7%;
+}
+
+#timer {
+  align-self: center;
+  color: white;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.e {
+ position: absolute;
 }
